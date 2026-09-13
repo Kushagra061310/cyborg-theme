@@ -46,36 +46,40 @@ export default function Home() {
       {/* 3. Tech Specs Section */}
       <section className="py-24 px-8 border-t border-cyan-900/30 bg-black relative z-10">
         <div className="max-w-6xl mx-auto">
-          
-          {/* Section Header */}
           <h2 className="text-3xl font-bold text-white uppercase tracking-widest mb-12 text-center">
             System <span className="text-cyan-400">Specifications</span>
           </h2>
           
-          {/* Grid Layout for Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            {/* Card 1 */}
             <div className="p-8 border border-gray-800 bg-gray-900/50 hover:border-cyan-500 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] transition-all duration-300 group cursor-crosshair">
               <div className="text-cyan-400 font-bold mb-4 text-xl tracking-wider group-hover:text-cyan-300">Neural Link v4</div>
               <p className="text-gray-400 text-sm leading-relaxed">Direct brain-to-machine interface with zero-latency data transfer and quantum encryption.</p>
             </div>
             
-            {/* Card 2 */}
             <div className="p-8 border border-gray-800 bg-gray-900/50 hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300 group cursor-crosshair">
               <div className="text-purple-400 font-bold mb-4 text-xl tracking-wider group-hover:text-purple-300">Titanium Chassis</div>
               <p className="text-gray-400 text-sm leading-relaxed">Military-grade exoskeleton providing superior durability while maintaining lightweight agility.</p>
             </div>
             
-            {/* Card 3 */}
             <div className="p-8 border border-gray-800 bg-gray-900/50 hover:border-cyan-500 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] transition-all duration-300 group cursor-crosshair">
               <div className="text-cyan-400 font-bold mb-4 text-xl tracking-wider group-hover:text-cyan-300">Optical Sensors</div>
               <p className="text-gray-400 text-sm leading-relaxed">Enhanced visual spectrum targeting including thermal, infrared, and ultraviolet processing.</p>
             </div>
-
           </div>
         </div>
       </section>
+
+      {/* 4. Footer */}
+      <footer className="py-8 border-t border-cyan-900/30 bg-black text-center relative z-10">
+        <div className="flex flex-col items-center justify-center gap-2">
+          <div className="text-cyan-500/40 text-xs font-mono tracking-[0.2em]">
+            SYSTEM.LOG // 2026.09.13 // END_OF_FILE
+          </div>
+          <p className="text-gray-600 text-xs tracking-widest uppercase mt-2">
+            © 2026 Techfest CA Program. All systems operational.
+          </p>
+        </div>
+      </footer>
 
     </main>
   );
